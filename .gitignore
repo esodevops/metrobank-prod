@@ -22,3 +22,5 @@
 # Python cache (if helper scripts are added later)
 __pycache__/
 *.pyc
+
+NOTE.md

@@ -34,7 +34,7 @@ Production-ready PostgreSQL banking data model with hardened schema constraints,
 - Audit metadata on every table: created_at, updated_at, created_by
 - Parent-first FK-safe schema design and load order
 
-## Parent-First Migration Logic (Fixing FK 23503)
+## Parent-First Migration Logic
 
 Schema and load process follows dependency order:
 
