@@ -1,27 +1,19 @@
-SELECT
-    COUNT(*)
-FROM
-    customers;
 
-SELECT
-    COUNT(*)
-FROM
-    accounts;
+-- Count the number of existing customers
 
-SELECT
-    COUNT(*)
-FROM
-    transactions;
+SELECT COUNT(*) FROM customers;
 
-SELECT
-    COUNT(*)
-FROM
-    loans;
+-- Count the number of existing accounts
 
-SELECT
-    COUNT(*)
-FROM
-    account_balance_audit_log;
+SELECT COUNT(*) FROM accounts;
+
+-- Count number of available transactions
+
+SELECT COUNT(*) FROM transactions;
+
+SELECT COUNT(*) FROM loans;
+
+SELECT COUNT(*) FROM account_balance_audit_log;
 
 -- 1) Customer distribution by city
 SELECT
