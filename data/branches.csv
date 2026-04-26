@@ -1,0 +1,9 @@
+branch_id,branch_name,branch_address,branch_num
+1,London Central Branch,"221B Baker Street, London",ENG-BR-001
+2,Manchester North Branch,"14 Deansgate, Manchester",ENG-BR-002
+3,Birmingham City Branch,"52 New Street, Birmingham",ENG-BR-003
+4,Liverpool Dock Branch,"8 Albert Dock, Liverpool",ENG-BR-004
+5,Leeds South Branch,"99 Briggate, Leeds",ENG-BR-005
+6,Bristol Avon Branch,"17 Park Street, Bristol",ENG-BR-006
+7,Newcastle Tyne Branch,"43 Grey Street, Newcastle",ENG-BR-007
+8,Nottingham Lace Branch,"31 Market Square, Nottingham",ENG-BR-008

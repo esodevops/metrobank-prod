@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <style>
+    .box { fill: #f4f8f5; stroke: #2f4f4f; stroke-width: 2; rx: 8; }
+    .title { font: 700 18px 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #1f2d2d; }
+    .text { font: 13px 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #1f2d2d; }
+    .line { stroke: #2f4f4f; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f4f4f" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="70" y="60" width="260" height="160" />
+  <text class="title" x="90" y="90">branches</text>
+  <text class="text" x="90" y="120">PK branch_id</text>
+  <text class="text" x="90" y="145">branch_name</text>
+  <text class="text" x="90" y="170">branch_num (unique)</text>
+  <text class="text" x="90" y="195">created_at, updated_at, created_by</text>
+
+  <rect class="box" x="70" y="300" width="260" height="185" />
+  <text class="title" x="90" y="330">customers</text>
+  <text class="text" x="90" y="360">PK customer_id</text>
+  <text class="text" x="90" y="385">phone_number (unique)</text>
+  <text class="text" x="90" y="410">email (unique)</text>
+  <text class="text" x="90" y="435">first_name, last_name, city</text>
+  <text class="text" x="90" y="460">created_at, updated_at, created_by</text>
+
+  <rect class="box" x="430" y="60" width="280" height="165" />
+  <text class="title" x="450" y="90">employees</text>
+  <text class="text" x="450" y="120">PK employee_id</text>
+  <text class="text" x="450" y="145">FK branch_id -> branches</text>
+  <text class="text" x="450" y="170">position, hire_date</text>
+  <text class="text" x="450" y="195">created_at, updated_at, created_by</text>
+
+  <rect class="box" x="430" y="300" width="280" height="185" />
+  <text class="title" x="450" y="330">accounts</text>
+  <text class="text" x="450" y="360">PK account_no</text>
+  <text class="text" x="450" y="385">FK customer_id -> customers</text>
+  <text class="text" x="450" y="410">FK branch_id -> branches</text>
+  <text class="text" x="450" y="435">account_type, balance</text>
+  <text class="text" x="450" y="460">created_at, updated_at, created_by</text>
+
+  <rect class="box" x="820" y="240" width="280" height="175" />
+  <text class="title" x="840" y="270">transactions</text>
+  <text class="text" x="840" y="300">PK transaction_id</text>
+  <text class="text" x="840" y="325">FK account_no -> accounts</text>
+  <text class="text" x="840" y="350">transaction_type, amount</text>
+  <text class="text" x="840" y="375">created_at, updated_at, created_by</text>
+
+  <rect class="box" x="820" y="470" width="280" height="190" />
+  <text class="title" x="840" y="500">loans</text>
+  <text class="text" x="840" y="530">PK loan_id</text>
+  <text class="text" x="840" y="555">FK customer_id -> customers</text>
+  <text class="text" x="840" y="580">FK account_no -> accounts</text>
+  <text class="text" x="840" y="605">loan_amount, int_rate</text>
+  <text class="text" x="840" y="630">created_at, updated_at, created_by</text>
+
+  <rect class="box" x="1160" y="300" width="220" height="170" />
+  <text class="title" x="1180" y="330">account_balance_audit_log</text>
+  <text class="text" x="1180" y="360">PK audit_id</text>
+  <text class="text" x="1180" y="385">FK account_no -> accounts</text>
+  <text class="text" x="1180" y="410">old_balance, new_balance, delta</text>
+  <text class="text" x="1180" y="435">changed_at, changed_by</text>
+
+  <path class="line" d="M 330 140 L 430 140" />
+  <path class="line" d="M 330 390 L 430 390" />
+  <path class="line" d="M 200 220 L 200 300" />
+  <path class="line" d="M 710 360 L 820 320" />
+  <path class="line" d="M 710 410 L 820 560" />
+  <path class="line" d="M 710 390 L 1160 385" />
+</svg>

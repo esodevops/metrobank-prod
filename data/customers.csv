@@ -1,0 +1,41 @@
+customer_id,first_name,last_name,date_of_birth,address,phone_number,city,email
+1001,Oliver,Smith,1988-03-12,12 King Road,711000001,London,oliver.smith@metrobank.co.uk
+1002,Amelia,Jones,1992-07-21,44 Queen Street,711000002,Manchester,amelia.jones@metrobank.co.uk
+1003,George,Taylor,1985-01-09,7 Regent Avenue,711000003,Birmingham,george.taylor@metrobank.co.uk
+1004,Isla,Brown,1996-11-28,19 Victoria Lane,711000004,Liverpool,isla.brown@metrobank.co.uk
+1005,Harry,Wilson,1989-05-15,5 Orchard Close,711000005,Leeds,harry.wilson@metrobank.co.uk
+1006,Ava,Evans,1994-04-04,81 Station Road,711000006,Bristol,ava.evans@metrobank.co.uk
+1007,Noah,Thomas,1991-09-19,63 Hill View,711000007,Newcastle,noah.thomas@metrobank.co.uk
+1008,Mia,Roberts,1998-06-02,10 Meadow Way,711000008,Nottingham,mia.roberts@metrobank.co.uk
+1009,Jack,Johnson,1987-12-23,25 Elm Street,711000009,London,jack.johnson@metrobank.co.uk
+1010,Sophia,Lewis,1993-08-30,90 Brookside,711000010,Manchester,sophia.lewis@metrobank.co.uk
+1011,Charlie,Walker,1986-10-14,16 Willow Drive,711000011,Birmingham,charlie.walker@metrobank.co.uk
+1012,Grace,Hall,1995-02-18,77 Oak Avenue,711000012,Liverpool,grace.hall@metrobank.co.uk
+1013,Alfie,Allen,1990-03-27,3 Cedar Court,711000013,Leeds,alfie.allen@metrobank.co.uk
+1014,Lily,Young,1997-01-11,58 Pine Grove,711000014,Bristol,lily.young@metrobank.co.uk
+1015,Oscar,Harris,1984-09-07,46 Rose Lane,711000015,Newcastle,oscar.harris@metrobank.co.uk
+1016,Freya,King,1999-12-05,22 Maple Street,711000016,Nottingham,freya.king@metrobank.co.uk
+1017,Leo,Wright,1983-06-16,61 Crescent Road,711000017,London,leo.wright@metrobank.co.uk
+1018,Ella,Green,1991-11-03,14 Riverbank,711000018,Manchester,ella.green@metrobank.co.uk
+1019,Arthur,Baker,1988-02-25,88 The Mews,711000019,Birmingham,arthur.baker@metrobank.co.uk
+1020,Evie,Adams,1996-05-13,35 Ash Terrace,711000020,Liverpool,evie.adams@metrobank.co.uk
+1021,Theodore,Nelson,1982-07-17,9 Rowan Road,711000021,Leeds,theodore.nelson@metrobank.co.uk
+1022,Poppy,Campbell,1994-10-09,74 Plum Close,711000022,Bristol,poppy.campbell@metrobank.co.uk
+1023,Thomas,Mitchell,1989-08-22,41 Cherry Way,711000023,Newcastle,thomas.mitchell@metrobank.co.uk
+1024,Rosie,Carter,1997-04-26,27 Holly Street,711000024,Nottingham,rosie.carter@metrobank.co.uk
+1025,Henry,Phillips,1985-12-01,64 Chapel Lane,711000025,London,henry.phillips@metrobank.co.uk
+1026,Ivy,Parker,1993-03-20,11 Barn Close,711000026,Manchester,ivy.parker@metrobank.co.uk
+1027,James,Turner,1987-05-31,53 College Road,711000027,Birmingham,james.turner@metrobank.co.uk
+1028,Ruby,Edwards,1998-07-08,38 Market Lane,711000028,Liverpool,ruby.edwards@metrobank.co.uk
+1029,William,Collins,1986-01-29,72 Moor Street,711000029,Leeds,william.collins@metrobank.co.uk
+1030,Sienna,Stewart,1995-09-10,20 Park Lane,711000030,Bristol,sienna.stewart@metrobank.co.uk
+1031,Lucas,Sanchez,1990-11-24,95 Abbey Road,711000031,Newcastle,lucas.sanchez@metrobank.co.uk
+1032,Chloe,Morris,1999-02-14,6 Harbour View,711000032,Nottingham,chloe.morris@metrobank.co.uk
+1033,Mohammed,Rogers,1984-04-01,48 Long Street,711000033,London,mohammed.rogers@metrobank.co.uk
+1034,Emily,Reed,1992-06-12,32 Castle Road,711000034,Manchester,emily.reed@metrobank.co.uk
+1035,Jacob,Cook,1988-08-05,79 Windmill Way,711000035,Birmingham,jacob.cook@metrobank.co.uk
+1036,Jessica,Morgan,1996-10-28,13 Chapel Street,711000036,Liverpool,jessica.morgan@metrobank.co.uk
+1037,Alexander,Bell,1983-12-19,54 Garden Close,711000037,Leeds,alexander.bell@metrobank.co.uk
+1038,Sophie,Murphy,1994-01-30,23 Priory Road,711000038,Bristol,sophie.murphy@metrobank.co.uk
+1039,Ethan,Bailey,1991-03-03,86 Highfield,711000039,Newcastle,ethan.bailey@metrobank.co.uk
+1040,Hannah,Cooper,1997-05-22,40 Mill Lane,711000040,Nottingham,hannah.cooper@metrobank.co.uk

@@ -1,0 +1,21 @@
+employee_id,first_name,last_name,position,branch_id,hire_date
+2001,Daniel,Price,Branch Manager,1,2015-04-10
+2002,Sarah,Ward,Customer Advisor,1,2018-09-03
+2003,Ryan,Gray,Branch Manager,2,2014-01-21
+2004,Megan,Brooks,Cashier,2,2019-06-18
+2005,Adam,Russell,Branch Manager,3,2016-03-14
+2006,Lauren,Wood,Loan Officer,3,2020-02-11
+2007,Matthew,Bennett,Branch Manager,4,2013-11-07
+2008,Abigail,Barnes,Cashier,4,2021-08-26
+2009,Joseph,Powell,Branch Manager,5,2017-05-19
+2010,Molly,Fisher,Customer Advisor,5,2022-01-05
+2011,Samuel,Butler,Branch Manager,6,2012-07-09
+2012,Lucy,Simpson,Loan Officer,6,2018-12-12
+2013,Benjamin,Cole,Branch Manager,7,2016-10-01
+2014,Zoe,Hayes,Cashier,7,2020-04-23
+2015,David,Knight,Branch Manager,8,2015-02-16
+2016,Anna,Ford,Customer Advisor,8,2019-09-30
+2017,Peter,Marshall,Operations Analyst,1,2021-06-15
+2018,Rachel,Hunter,Compliance Officer,2,2020-10-20
+2019,Connor,Dixon,Relationship Manager,3,2019-04-01
+2020,Natalie,Mills,Risk Analyst,4,2022-11-08
