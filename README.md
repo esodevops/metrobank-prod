@@ -89,25 +89,25 @@ Prerequisites:
 1. Create the database.
 
 ```sql
-CREATE DATABASE metrobank;
+CREATE DATABASE metrobank_prod;
 ```
 
 2. Apply schema and hardening.
 
 ```bash
-psql -d metrobank -f setup.sql
+psql -d metrobank_prod -f setup.sql
 ```
 
 3. Load data through staging workflow.
 
 ```bash
-psql -d metrobank -f seed.sql
+psql -d metrobank_prod -f seed.sql
 ```
 
 4. Or run all-in-one loader.
 
 ```bash
-./scripts/load_staging.sh metrobank
+./scripts/load_staging.sh metrobank_prod
 ```
 
 ## Error Handling Procedure (Batch Insert Failures)
