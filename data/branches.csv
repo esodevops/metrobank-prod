@@ -1,9 +1,17 @@
 branch_id,branch_name,branch_address,branch_num
-1,London Central Branch,"221B Baker Street, London",ENG-BR-001
-2,Manchester North Branch,"14 Deansgate, Manchester",ENG-BR-002
-3,Birmingham City Branch,"52 New Street, Birmingham",ENG-BR-003
-4,Liverpool Dock Branch,"8 Albert Dock, Liverpool",ENG-BR-004
-5,Leeds South Branch,"99 Briggate, Leeds",ENG-BR-005
-6,Bristol Avon Branch,"17 Park Street, Bristol",ENG-BR-006
-7,Newcastle Tyne Branch,"43 Grey Street, Newcastle",ENG-BR-007
-8,Nottingham Lace Branch,"31 Market Square, Nottingham",ENG-BR-008
+1,Hampton-Johnson,"Unit 7498 Box 1909
+DPO AA 73909",ENG-BR-001
+2,Johnson-Braun,"376 Garrett Forge Suite 567
+Sandramouth, NJ 95404",ENG-BR-002
+3,"Parker, Williamson and Garcia","Unit 0971 Box 9022
+DPO AA 40663",ENG-BR-003
+4,Goodman-Lee,"6341 Joseph Trail
+Gabrielastad, PA 86992",ENG-BR-004
+5,Wallace LLC,"8352 Davies Parkway Suite 254
+Albertmouth, NC 63903",ENG-BR-005
+6,"Thomas, Schwartz and Wilson","743 Adam Creek
+East Randy, AL 52770",ENG-BR-006
+7,Smith-Maynard,"086 Jeanette Views Suite 669
+Chaseland, DE 03897",ENG-BR-007
+8,Pitts LLC,"575 Mark Station
+Shannonbury, ND 04528",ENG-BR-008

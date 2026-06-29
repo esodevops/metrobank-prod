@@ -1,39 +1,9 @@
 -- ============================================================
--- 02_constraints.sql  -  Audit columns, triggers, indexes, roles
+-- 02_constraints.sql  -  Triggers, indexes, roles
 -- ============================================================
 
--- Audit columns (idempotent)
-ALTER TABLE branches
-    ADD COLUMN IF NOT EXISTS created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS created_by  TEXT        NOT NULL DEFAULT CURRENT_USER;
-
-ALTER TABLE customers
-    ADD COLUMN IF NOT EXISTS created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS created_by  TEXT        NOT NULL DEFAULT CURRENT_USER;
-
--- Email/phone constraints already defined in 01_schema.sql; nothing extra to add here.
-
-ALTER TABLE employees
-    ADD COLUMN IF NOT EXISTS created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS created_by  TEXT        NOT NULL DEFAULT CURRENT_USER;
-
-ALTER TABLE accounts
-    ADD COLUMN IF NOT EXISTS created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS created_by  TEXT        NOT NULL DEFAULT CURRENT_USER;
-
-ALTER TABLE transactions
-    ADD COLUMN IF NOT EXISTS created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS created_by  TEXT        NOT NULL DEFAULT CURRENT_USER;
-
-ALTER TABLE loans
-    ADD COLUMN IF NOT EXISTS created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS updated_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    ADD COLUMN IF NOT EXISTS created_by  TEXT        NOT NULL DEFAULT CURRENT_USER;
+-- Audit columns are already defined in 01_schema.sql
+-- This file adds triggers, indexes, audit log table, and roles
 
 -- updated_at trigger function
 CREATE OR REPLACE FUNCTION set_updated_at()
