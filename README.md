@@ -23,7 +23,7 @@ Production-ready PostgreSQL banking data model with hardened schema constraints,
 
 ## ERD
 
-![MetroBank ERD](docs/erd.svg)
+![MetroBank ERD](docs/metrobankerd.png)
 
 ## What Was Hardened
 
